@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(87, 87, 179);
+
+}
+
+.Userinput{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+input{
+  width: 100%;
+  padding: 0.5rem ;
+  background-color: aqua;
+  border-radius: 25px;
+}
+
+.Useroutput{
+
+  gap: 1rem;
+  padding: 1rem;  
+  text-align: justify;
+  color: whitesmoke;
+}
+.App{
+  margin: 0 auto;
+  width: 95%;
+  max-width: 50rem;
+  border: 1px solid aqua;
+}

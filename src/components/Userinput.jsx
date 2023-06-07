@@ -5,7 +5,7 @@ const Userinput = () => {
     <div className='Userinput'>
 
         {/* Userinput */}
-      < input type="Userinput" />
+      < input type="text" />
         
     </div>
   )

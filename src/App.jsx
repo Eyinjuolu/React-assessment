@@ -2,16 +2,17 @@
 
 import Userinput from "./components/Userinput";
 import Useroutput from "./components/Useroutput";
-import './App.css';
+import './index.css';
 
 function App() {
   return (
 
     // Userinput element
     <div className="App">
-    <Userinput />
+ 
 
     {/* Useroutput element */}
+  
     <Useroutput />
 
     <Useroutput />
@@ -23,6 +24,8 @@ function App() {
     <Useroutput />
 
     <Useroutput />
+ 
+    <Userinput />
 
   
     </div>
